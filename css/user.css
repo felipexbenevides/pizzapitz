@@ -1,0 +1,42 @@
+.bg-userRed {
+  background-color: #a7453f !important
+}
+
+
+
+/*SIDEBAR RED*/
+
+.sidebar.userRed {
+  background: #a7453f;
+}
+.sidebar.userRed li > a {
+  background: #a7453f;
+  color: #ffffff;
+}
+.sidebar.userRed li:hover > a {
+  background: #b91a1a;
+  color: #ffffff;
+}
+.sidebar.userRed li.active > a {
+  background: #9a1616;
+  color: #ffffff;
+}
+.sidebar.userRed li.disabled > a {
+  background: #a7453f;
+  color: #555555;
+}
+@font-face {
+    font-family: blacksword;
+    src: url('../fonts/blacksword.otf');
+}
+.branding{
+    font-family: blacksword;
+    font-size: 40px !important;
+    width:200px;
+    text-align:center;
+}
+.titleLogin{
+    font-family: blacksword;
+    font-size: 40px !important;
+    width:200px;
+}
